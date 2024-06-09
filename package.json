@@ -1,0 +1,35 @@
+{
+  "name": "timeout-decorator",
+  "version": "1.0.0",
+  "description": "A decorator that enforces a time limit on the execution of an async method.",
+  "main": "index.ts",
+  "dependencies": {
+    "try-catch-decorator": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hussnaindev/timeout-decorator.git"
+  },
+  "keywords": [
+    "timeout",
+    "decorator",
+    "try",
+    "catch",
+    "ts",
+    "typescript",
+    "method",
+    "time",
+    "limit",
+    "async"
+  ],
+  "author": "Muhammad Hussnain Raza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hussnaindev/timeout-decorator/issues"
+  },
+  "homepage": "https://github.com/hussnaindev/timeout-decorator#readme"
+}
