@@ -5,7 +5,7 @@
  * @param {number} milliseconds - The time limit in milliseconds.
  * @returns {MethodDecorator} The method decorator.
  */
-function Timeout(milliseconds: number): MethodDecorator {
+export function Timeout(milliseconds: number): MethodDecorator {
     return function (target: any, propertyKey: string | symbol, descriptor: PropertyDescriptor): PropertyDescriptor {
         const originalMethod = descriptor.value;
 
