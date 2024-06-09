@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A decorator that enforces a time limit on the execution of an async method.",
   "main": "index.ts",
-  "dependencies": {
-    "try-catch-decorator": "^1.0.4"
-  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
